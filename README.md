@@ -6,6 +6,23 @@ Este projeto já conta com uma base sólida e boas práticas para apps que integ
 
 ---
 
+## 📸 Prints do projeto
+
+Aqui estão algumas capturas de tela do projeto:
+
+### Tela de Login
+
+![Tela de Login](prints/login.png)
+
+### Tela de Dashboard
+
+![Tela de Dashboard](prints/dashbord1.png)
+![Tela de Dashboard](prints/dashbord2.png)
+![Tela de Dashboard](prints/dashbord3.png)
+![Tela de Dashboard](prints/dashbord4.png)
+
+---
+
 ## 🔧 Tecnologias utilizadas
 
 - [Quasar Framework](https://quasar.dev/) + [Capacitor](https://capacitorjs.com/) – App mobile multiplataforma (Android/iOS)
@@ -14,6 +31,7 @@ Este projeto já conta com uma base sólida e boas práticas para apps que integ
 - [Vue I18n](https://vue-i18n.intlify.dev/) – Internacionalização (Só foi instalado ainda não foi aplicado)
 - [SQLite](https://www.sqlite.org/index.html) – Armazenamento local de dados
 - [Supabase](https://supabase.com/) – Para onde os dados serão sincronizados, um hub onde os sistemas host poderá usar a api para receber/enviar dados
+- [Apexcharts](https://apexcharts.com/) – Modern & Interactive Open-source Charts
 
 ---
 
@@ -21,10 +39,10 @@ Este projeto já conta com uma base sólida e boas práticas para apps que integ
 
 - ✅ Layout publico e privado
 - ✅ Criação e atualização automática das tabelas no SQLite com base em objetos modelo, composable para abstrair as operações no sqllite
-- ✅ Autenticação (ainda não está usando o banco de dados)  
-- ✅ Integração com API do Supabase (Só foi feito a configuração, e um composable para abstrair o supabase) 
-- ✅ Suporte a modo escuro (*dark mode*)  
-- ✅ Tela de dashboard como exemplo inicial de layout  
+- ✅ Autenticação (ainda não está usando o banco de dados)
+- ✅ Integração com API do Supabase (Só foi feito a configuração, e um composable para abstrair o supabase)
+- ✅ Suporte a modo escuro (_dark mode_)
+- ✅ Tela de dashboard como exemplo inicial de layout
 
 ---
 
@@ -84,11 +102,11 @@ quasar build -m capacitor -T android
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
 
 ## Mobile Android
+
 Obs: certifique-se de ter o Android Studio instalado para builds Android.
 
-Sete as variaveis: 
+Sete as variaveis:
 PATH=$PATH:$ANDROID_SDK_ROOT/tools; PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
 
 Leia a documentação:
 https://quasar.dev/quasar-cli-vite/developing-capacitor-apps/introduction
-
